@@ -1,0 +1,19 @@
+
+GET http://127.0.0.1:5001/trivia-cce2d/us-central1/api
+
+POST http://127.0.0.1:9099/identitytoolkit.googleapis.com/v1/projects/trivia-cce2d/accounts
+Host: 127.0.0.1:9099
+Connection: keep-alive
+Content-Length: 163
+Origin: http://127.0.0.1:4000
+
+{
+        "customAttributes":"",
+    "displayName":"jhy",
+    "photoUrl":"",
+    "email":"shxxgames@gmail.com",
+    "password":"123456",
+    "phoneNumber":"",
+    "emailVerified":false,
+    "mfaInfo":[]
+}
